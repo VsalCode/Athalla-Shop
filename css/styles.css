@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: poppins, Helvetica, sans-serif;
+}
+
+.carousel-inner {
+  height: 570px; /* Atur tinggi carousel sesuai kebutuhan */
+}
+.carousel-inner img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.highlited-kategori {
+  height: 250px;
+}
+
+.kategori-abaya {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../image/highlight1.jpeg");
+  background-size: cover;
+  background-position: center;
+}
+
+.kategori-tas {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../image/highlight2.jpeg");
+  background-size: cover;
+  background-position: center;
+}
+
+.kategori-dress {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../image/highlight3.jpeg");
+  background-size: cover;
+  background-position: center;
+}
+
+.image-box {
+  height: 350px;
+  overflow: hidden;
+}
+
+.image-box img {
+  height: 100%;
+  width: 100%;
+  object-position: center;
+  object-fit: cover;
+}
+
+
+@media (max-width: 1004px) {
+  .carousel-inner {
+    height: auto; /* Menghapus atau mengatur tinggi otomatis */
+  }
+}
